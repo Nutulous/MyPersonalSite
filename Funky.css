@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(127,127,127,0.65);
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: white;
+    letter-spacing: 5px;
+    text-shadow: 2px;
+}
+p {
+    margin:auto;
+    transform-origin:20px;
+    transform: rotate(270deg);
+    text-align: center;
+    vertical-align:baseline;
+    position: fixed; top: 450px;
+}
+#EspenButton {
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 8%;
+    height: 3rem;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+}
+#BryceButton {
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10%;
+    width: 8%;
+    height: 3rem;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+}
+#FunkyButton {
+    background-color: #663399;
+    color: white;
+    font-weight: bolder;
+    text-decoration: wavy underline black;
+    border-radius: 100%;
+    width: 10%;
+    height: 5rem;
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.65);
+}
+#FunkyArea {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 1em;
+}
+.funky {
+    margin: 1em;
+    background-color: rgba(255, 0, 0, 0.568);
+    border-style: solid;
+    height: 75px;
+    width: 200px;
+}
